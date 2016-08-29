@@ -29,10 +29,12 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
-	/** TODO 
-		Fix this method
-	*/
-	return(0);
+        Node<T>* temp = m_front;
+	int size = 0;
+        
+        
+        
+	return(size);
 }
 
 template <typename T>
